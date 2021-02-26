@@ -2,48 +2,48 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-23T15:55:42 EST" name="Suite" finished-at="2021-02-23T15:55:48 EST" duration-ms="5448">
+  <suite started-at="2021-02-25T15:33:46 EST" name="Suite" finished-at="2021-02-25T15:33:52 EST" duration-ms="6369">
     <groups>
     </groups>
-    <test started-at="2021-02-23T15:55:42 EST" name="Test" finished-at="2021-02-23T15:55:48 EST" duration-ms="5448">
+    <test started-at="2021-02-25T15:33:46 EST" name="Test" finished-at="2021-02-25T15:33:52 EST" duration-ms="6369">
       <class name="Tests.TC_01_GetUser">
-        <test-method is-config="true" signature="before_test()[pri:0, instance:Tests.TC_01_GetUser@79145d5a]" started-at="2021-02-23T15:55:42 EST" name="before_test" finished-at="2021-02-23T15:55:46 EST" duration-ms="4424" status="PASS">
+        <test-method is-config="true" signature="before_test()[pri:0, instance:Tests.TC_01_GetUser@60d1a32f]" started-at="2021-02-25T15:33:46 EST" name="before_test" finished-at="2021-02-25T15:33:51 EST" duration-ms="5157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before_test -->
-        <test-method signature="CheckResponseBody()[pri:0, instance:Tests.TC_01_GetUser@79145d5a]" started-at="2021-02-23T15:55:47 EST" name="CheckResponseBody" finished-at="2021-02-23T15:55:47 EST" duration-ms="43" status="PASS">
+        <test-method signature="CheckResponseBody()[pri:0, instance:Tests.TC_01_GetUser@60d1a32f]" started-at="2021-02-25T15:33:52 EST" name="CheckResponseBody" finished-at="2021-02-25T15:33:52 EST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckResponseBody -->
-        <test-method signature="CheckResponseTime()[pri:0, instance:Tests.TC_01_GetUser@79145d5a]" started-at="2021-02-23T15:55:47 EST" name="CheckResponseTime" finished-at="2021-02-23T15:55:47 EST" duration-ms="4" status="PASS">
+        <test-method signature="CheckResponseTime()[pri:0, instance:Tests.TC_01_GetUser@60d1a32f]" started-at="2021-02-25T15:33:52 EST" name="CheckResponseTime" finished-at="2021-02-25T15:33:52 EST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckResponseTime -->
-        <test-method signature="CheckStatusCode()[pri:0, instance:Tests.TC_01_GetUser@79145d5a]" started-at="2021-02-23T15:55:47 EST" name="CheckStatusCode" finished-at="2021-02-23T15:55:47 EST" duration-ms="1" status="PASS">
+        <test-method signature="CheckStatusCode()[pri:0, instance:Tests.TC_01_GetUser@60d1a32f]" started-at="2021-02-25T15:33:52 EST" name="CheckStatusCode" finished-at="2021-02-25T15:33:52 EST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckStatusCode -->
       </class> <!-- Tests.TC_01_GetUser -->
       <class name="Tests.TC_02_PostUser">
-        <test-method is-config="true" signature="createUser()[pri:0, instance:Tests.TC_02_PostUser@1f2f9244]" started-at="2021-02-23T15:55:46 EST" name="createUser" finished-at="2021-02-23T15:55:47 EST" duration-ms="486" status="PASS">
+        <test-method is-config="true" signature="createUser()[pri:0, instance:Tests.TC_02_PostUser@531c311e]" started-at="2021-02-25T15:33:51 EST" name="createUser" finished-at="2021-02-25T15:33:51 EST" duration-ms="560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method signature="CheckContentBody()[pri:0, instance:Tests.TC_02_PostUser@1f2f9244]" started-at="2021-02-23T15:55:47 EST" name="CheckContentBody" finished-at="2021-02-23T15:55:47 EST" duration-ms="2" status="PASS">
+        <test-method signature="CheckContentBody()[pri:0, instance:Tests.TC_02_PostUser@531c311e]" started-at="2021-02-25T15:33:52 EST" name="CheckContentBody" finished-at="2021-02-25T15:33:52 EST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckContentBody -->
-        <test-method signature="CheckStatusCode()[pri:0, instance:Tests.TC_02_PostUser@1f2f9244]" started-at="2021-02-23T15:55:48 EST" name="CheckStatusCode" finished-at="2021-02-23T15:55:48 EST" duration-ms="2" status="PASS">
+        <test-method signature="CheckStatusCode()[pri:0, instance:Tests.TC_02_PostUser@531c311e]" started-at="2021-02-25T15:33:52 EST" name="CheckStatusCode" finished-at="2021-02-25T15:33:52 EST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckStatusCode -->
       </class> <!-- Tests.TC_02_PostUser -->
       <class name="Tests.TC_03_PutUser">
-        <test-method is-config="true" signature="createUser()[pri:0, instance:Tests.TC_03_PutUser@4c4d27c8]" started-at="2021-02-23T15:55:47 EST" name="createUser" finished-at="2021-02-23T15:55:47 EST" duration-ms="407" status="PASS">
+        <test-method is-config="true" signature="createUser()[pri:0, instance:Tests.TC_03_PutUser@22b53226]" started-at="2021-02-25T15:33:51 EST" name="createUser" finished-at="2021-02-25T15:33:52 EST" duration-ms="526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createUser -->
-        <test-method signature="StatusCodeCheck()[pri:0, instance:Tests.TC_03_PutUser@4c4d27c8]" started-at="2021-02-23T15:55:48 EST" name="StatusCodeCheck" finished-at="2021-02-23T15:55:48 EST" duration-ms="2" status="PASS">
+        <test-method signature="StatusCodeCheck()[pri:0, instance:Tests.TC_03_PutUser@22b53226]" started-at="2021-02-25T15:33:52 EST" name="StatusCodeCheck" finished-at="2021-02-25T15:33:52 EST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- StatusCodeCheck -->
